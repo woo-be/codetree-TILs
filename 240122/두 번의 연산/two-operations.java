@@ -7,13 +7,10 @@ public class Main {
         if (a % 2 == 1) {
             a += 3;
             if (a % 3 == 0) {
-                System.out.println(a / 3);
-            } else {
-System.out.println(a);
+                a /= 3;
             }
-        } else {
-            System.out.println(a);
         }
+        System.out.println(a);
         
     }
 }
