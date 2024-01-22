@@ -8,9 +8,9 @@ public class Main {
             a += 3;
             if (a % 3 == 0) {
                 System.out.println(a / 3);
-            } else {
-System.out.println(a);
-            }
+            } 
+        } else {
+            System.out.println(a);
         }
         
     }
