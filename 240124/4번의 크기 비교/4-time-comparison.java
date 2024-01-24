@@ -9,24 +9,24 @@ public class Main {
         int d = in.nextInt();
         int e = in.nextInt();
         if (a > b) {
-            System.out,println("1");
+            System.out.println("1");
         } else {
-            System.out,println("0");
+            System.out.println("0");
         }
         if (a > c) {
-            System.out,println("1");
+            System.out.println("1");
         } else {
-            System.out,println("0");
+            System.out.println("0");
         }
         if (a > d) {
-            System.out,println("1");
+            System.out.println("1");
         } else {
-            System.out,println("0");
+            System.out.println("0");
         }
         if (a > e) {
-            System.out,println("1");
+            System.out.println("1");
         } else {
-            System.out,println("0");
+            System.out.println("0");
         }
     }
 }
