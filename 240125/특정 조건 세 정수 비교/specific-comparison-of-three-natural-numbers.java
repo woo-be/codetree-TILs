@@ -8,19 +8,19 @@ public class Main {
         int c = in.nextInt();
         int min = minimum(a, minimum(b, c));
         if (a == min) {
-            System.out.println("1");
+            System.out.print("1 ");
         } else {
-            System.out.println("0");
+            System.out.print("0 ");
         }
         if (a == b && a == c) {
-            System.out.println("1");
+            System.out.print("1 ");
         } else {
-            System.out.println("0");
+            System.out.print("0 ");
         }
     }
 
     static int minimum(int a, int b) {
-        if (a > b) {
+        if (a < b) {
             return a;
         } else {
             return b;
