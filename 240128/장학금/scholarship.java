@@ -7,9 +7,9 @@ public class Main {
         int last = in.nextInt();
         if (middle >= 90) {
             if (last >= 95) {
-                System.out.println(10);
+                System.out.println(100000);
             } else if (last >= 90) {
-                System.out.println(5);
+                System.out.println(5000);
             } else {
                 System.out.println(0);
             }
