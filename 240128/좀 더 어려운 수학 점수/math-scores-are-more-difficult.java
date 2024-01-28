@@ -8,14 +8,14 @@ public class Main {
         int bMath = in.netxInt();
         int bEnglish = in.netxInt();
         if (aMath > bMath) {
-            System.out.println("A")
+            System.out.println("A");
         } else if (aMath < bMath) {
-            System.out.println("B")
+            System.out.println("B");
         } else {
             if (aEngilsh > bEnglish) {
-                System.out.println("A")
+                System.out.println("A");
             } else {
-                System.out.println("B")
+                System.out.println("B");
             }
         }
     }
