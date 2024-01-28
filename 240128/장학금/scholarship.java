@@ -9,7 +9,7 @@ public class Main {
             if (last >= 95) {
                 System.out.println(100000);
             } else if (last >= 90) {
-                System.out.println(5000);
+                System.out.println(50000);
             } else {
                 System.out.println(0);
             }
