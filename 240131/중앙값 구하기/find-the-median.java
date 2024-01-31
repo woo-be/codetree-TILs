@@ -7,14 +7,14 @@ public class Main {
         int b = in.nextInt();
         int c = in.nextInt();
 
-        if (a > b && a < c) {
-System.out.println(a);
+        if ((a > b && a < c) || (a > c && a < b)) {
+                System.out.println(a);
         }
-        if (b > a && b < c) {
-System.out.println(b);
+        if ((b > a && b < c) || (b > c && b < a)) {
+                System.out.println(b);
         }
-        if (c > a && c < b) {
-System.out.println(c);
+        if ((c > a && c < b) || (c > b && c < a)) {
+                System.out.println(c);
         }
     }
 }
