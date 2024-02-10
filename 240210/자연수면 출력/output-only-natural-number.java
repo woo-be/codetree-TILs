@@ -10,7 +10,7 @@ public class Main {
         for (int i = 0; i < b; i++) {
             System.out.print(a);
         }
-    } else if (a == 0) {
+    } else if (a <= 0) {
         System.out.print("0");
     }
 }
