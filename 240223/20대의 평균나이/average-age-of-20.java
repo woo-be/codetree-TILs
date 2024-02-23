@@ -7,7 +7,7 @@ public class Main {
         int count = 0;
         while (true) {
             int i = in.nextInt();
-            if (i >= 30) {
+            if (i >= 30 || i <= 19) {
                 break;
             }
             sum += i;
