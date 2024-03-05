@@ -11,7 +11,7 @@ public class Main {
             }
             System.out.println();
 
-            if (i >= 4) {
+            if (i >= n - 1) {
                 cnt++;
             } else {
                 cnt--;
