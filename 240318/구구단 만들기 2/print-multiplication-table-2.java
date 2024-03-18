@@ -7,7 +7,7 @@ public class Main {
         int b = in.nextInt();
         for (int i = 2; i < 9; i++) {
             if (i % 2 == 0) {
-                for (int j = b; j > 1; j--) {
+                for (int j = b; j >= a; j--) {
                     System.out.printf("%d * %d = %d", j, i, j * i);
                     if (j != 2) {
                         System.out.print(" / ");
