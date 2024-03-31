@@ -6,7 +6,7 @@ public class Main {
         int[] arr = new int[11];
         arr[0] = in.nextInt();
         arr[1] = in.nextInt();
-        for (int i = 3; i < 11; i++) {
+        for (int i = 2; i < 11; i++) {
             arr[i] = arr[i - 1] + arr[i - 2];
         }
 
