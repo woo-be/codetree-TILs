@@ -5,13 +5,13 @@ public class Main {
         Scanner in = new Scanner(System.in);
         int a = in.nextInt();
         int b = in.nextInt();
-        int[] remainArr = new int[11];
+        int[] remainArr = new int[10];
         int sum = 0;
         
         while (true) {
             remainArr[a % b]++;
             a /= b;
-            if (a == 0) {
+            if (a <= 1) {
                 break;
             }
         }
