@@ -5,7 +5,7 @@ public class Main {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         int[] arr = new int[n];
-        int[] countArr = new int[n + 1];
+        int[] countArr = new int[1001];
         int max = -1;
         for (int i = 0; i < n; i++) {
             int temp = in.nextInt();
