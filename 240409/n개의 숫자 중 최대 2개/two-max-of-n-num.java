@@ -6,6 +6,11 @@ public class Main {
         int n = in.nextInt();
         int max1 = in.nextInt();
         int max2 = in.nextInt();
+        if (max2 > max1) {
+            int t = max2;
+            max2 = max1;
+            max1 = t;
+        }
         for (int i = 0; i < n - 2; i++) {
             int temp = in.nextInt();
             if (temp > max1) {
@@ -14,11 +19,7 @@ public class Main {
             } else if (temp > max2) {
                 max2 = temp;
             }
-            if (max2 > max1) {
-                int t = max2;
-                max2 = max1;
-                max1 = t;
-            }
+
         }
         System.out.print(max1 + " " + max2);
     }
