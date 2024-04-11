@@ -9,27 +9,19 @@ public class Main {
             price[i] = in.nextInt();
         }
 
-        int min = price[0];
-        int max = 0;
-        int minIndex = 0;
-        for (int i = 1; i < n; i++) {
-            if (price[i] < min) {
-                min = price[i];
-                minIndex = i;
+        int profit = 0;
+        for (int i = 0; i < n; i++) {
+            int profit_temp = 0;
+            for (int j = i + 1; j < n; j++) {
+                if (profit_temp < price[j] - price[i]) {
+                    profit_temp = price[j] - price[i];
+                }
+            }
+            if (profit < profit_temp) {
+                profit = profit_temp;
             }
         }
 
-        for (int i = minIndex; i < n; i++) {
-            if (price[i] > max) {
-                max = price[i];
-            }
-        }
-
-        int result = max - min;
-        if (result <= 0) {
-            System.out.print(0);
-        } else {
-            System.out.print(result);
-        }
+        System.out.print(profit);
     }
 }
