@@ -16,8 +16,8 @@ public class Main {
             for (int j = 0; j < 4; j++) {
                 sum1 += arr[i][j];
             }
-            avg1 = sum1 / 4;
-            System.out.print(avg1 + " ");
+            avg1 = (double) sum1 / 4;
+            System.out.printf("%.1f ", avg1);
         }
         System.out.println();
 
@@ -27,8 +27,8 @@ public class Main {
             for (int j = 0; j < 2; j++) {
                 sum2 += arr[j][i];
             }
-            avg2 = sum2 / 2;
-            System.out.print(avg2 + " ");
+            avg2 = (double) sum2 / 2;
+            System.out.printf("%.1f ", avg2);
         }
         System.out.println();
 
@@ -39,7 +39,7 @@ public class Main {
                 sum += arr[i][j];
             }
         }
-        avg = sum / 8;
-        System.out.print(avg);
+        avg = (double) sum / 8;
+        System.out.printf("%.1f", avg);
     }
 }
