@@ -6,7 +6,7 @@ public class Main {
         int index = -1;
         String str = in.next();
         char c = in.next().charAt(0);
-        for (int i = 0; i < str.length() - 1; i++) {
+        for (int i = 0; i < str.length(); i++) {
             if (str.charAt(i) == c) {
                 index = i;
                 break;
