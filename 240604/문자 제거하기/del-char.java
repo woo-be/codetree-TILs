@@ -6,13 +6,12 @@ import java.io.OutputStreamWriter;
 
 public class Main {
   public static void main(String[] args) throws IOException {
-    Scanner in = new Scanner(System.in);
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-    String str = in.next();
+    String str = br.readLine();
     int len = str.length();
     for (int i = 0; i < len - 1; i++) {
-        int index = in.nextInt();
+        int index = Integer.valueOf(br.readLine());
         if (index >= str.length()) {
             index = str.length() - 1;
         }
