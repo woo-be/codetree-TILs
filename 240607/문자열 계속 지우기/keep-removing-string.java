@@ -19,6 +19,7 @@ public class Main {
             if (a.substring(i, i + bLength).equals(b)) {
                 a = a.substring(0, i) + a.substring(i + bLength);
                 cnt++;
+                break;
             }
         }
         if (cnt == 0) {
